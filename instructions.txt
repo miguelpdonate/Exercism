@@ -13,6 +13,25 @@ if it doesn't exists create the file .gitignore inside of the directory hello-wo
    node_modules
 inside of the hello-world directory commit everything and in the comments put initial
 
+solve the excercise
+
+if you want to run the program, copy code and remove the export and comment the real code, then do:
+node hello-world.js
+
+uncomment your code and put it back as it was
+
+Test the excercise
+npm test
+
+if it is OK, submit the excercise
+exercism submit hello-world.js
+
+
+
+
+
+
+
 
 
 

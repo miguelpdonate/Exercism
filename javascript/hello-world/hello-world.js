@@ -6,3 +6,9 @@
 export function hello() {
   return 'Hello, World!';
 }
+
+// use like this to execute/run the program (removing the export and putting console logs)
+// console.log(hello());
+// function hello() {
+//   return 'Hello, World!';
+// }
