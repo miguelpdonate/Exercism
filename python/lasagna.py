@@ -14,6 +14,7 @@ PREPARATION_TIME = 2
 
 #TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
 def bake_time_remaining(elapsed_bake_time):
+    
     """Calculate the bake time remaining.
 
     :param elapsed_bake_time: int - baking time already elapsed.
@@ -29,11 +30,21 @@ def bake_time_remaining(elapsed_bake_time):
 #TODO: Define the 'preparation_time_in_minutes()' function below.
 # You might also consider using 'PREPARATION_TIME' here, if you have it defined.
 def preparation_time_in_minutes(number_of_layers):
+    """function:  preparation_time_in_minutes
+    arg: number_of_layers number of layers of the lasagna
+    returns lasagna preparation time in minutes
+    """
     return PREPARATION_TIME * number_of_layers
 
 #TODO: define the 'elapsed_time_in_minutes()' function below.
 # Remember to add a docstring (you can copy and then alter the one from bake_time_remaining.)
 def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
+
+    """function: elapsed_time_in_minutes
+    arg: number_of_layers
+         elapsed_bake_time
+    returns the total lasagna elapsed time in minutes
+    """
     return preparation_time_in_minutes(number_of_layers) + elapsed_bake_time
 
 
